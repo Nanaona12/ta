@@ -1,0 +1,16 @@
+100 epochs completed in 4.132 hours.
+Optimizer stripped from runs\detect\train23\weights\last.pt, 3.8MB
+Optimizer stripped from runs\detect\train23\weights\best.pt, 3.8MB
+
+Validating runs\detect\train23\weights\best.pt...
+Ultralytics YOLOv8.2.63 🚀 Python-3.12.4 torch-2.3.1+cpu CPU (13th Gen Intel Core(TM) i9-13900F)
+novi summary (fused): 312 layers, 1,714,661 parameters, 0 gradients, 5.0 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:05<00:00,  1.70s/it]
+                   all         96       8355       0.58      0.505      0.539      0.228
+                 House         96       3948      0.585      0.694      0.661      0.316
+                 Tower         38         42      0.501       0.43      0.486       0.18
+                 Trees         91       4365      0.654      0.392      0.472      0.188
+Speed: 0.4ms preprocess, 20.5ms inference, 0.0ms loss, 17.3ms postprocess per image
+Results saved to runs\detect\train23
+Checkpoint loaded successfully.
+model.ckpt is populated.
